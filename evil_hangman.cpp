@@ -124,7 +124,7 @@ int main(int argc, char const *argv[])
 			ReadFile(dict, dictionary, number_of_words);
 			
 			size_of_chosenword=random3_7();
-		    cout << "Word lenght: "<<size_of_chosenword<< endl;
+		        cout << "Word lenght: "<<size_of_chosenword<< endl;
 			letter=takeinput();
 		     
 			RemoveWords(dict, letter, number_of_words);
@@ -132,7 +132,7 @@ int main(int argc, char const *argv[])
 		
 			cout << "nope wrong guess."<<endl;
 		
-            break;
+                        break;
 
 			case 3: //user is prompted for a guess according to number of tries. in this case 5.
 			        //the words with that letter are removed.
