@@ -30,6 +30,7 @@ from case 2 and 3.
 - To improve asymptotic complexity of the process, an AVL tree can be used as the dictionary. will complete deleting, inserting and searching in logrithmic time.
 
 ***************************************************HOW TO RUN*************************************************************
+code written in c++
 
 For Windows Users:
 your_object_file dictionary_file number_of_words_in_file case_mode
