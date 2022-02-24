@@ -36,11 +36,15 @@ from case 2 and 3.
 
 #### Commands used to run
 For Windows Users:
-g++ 
-<your_object_file> <dictionary_file> <number_of_words_in_file> <case_mode>
+``` g++ evil_hangman.cpp -o <object file name>```
+``` <object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>```
 
 For Linux Users
-<./your_object_file> <dictionary_file> <number_of_words_in_file> <case_mode>
+``` g++ evil_hangman.cpp -o <object file name>```
+``` ./<object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>```
 
-example:
-evil_hangman english2.txt 65197 1
+##### note:
+In this repository:
+* dictionary_file = english2.txt
+* number_of_words_in_dictionary = 65197
+* case_mode = 1 or 2 or 3 (descriptions given above)
