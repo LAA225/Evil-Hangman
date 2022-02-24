@@ -36,12 +36,20 @@ from case 2 and 3.
 
 #### Commands used to run
 For Windows Users:
-``` g++ evil_hangman.cpp -o <object file name>```
-``` <object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>```
+``` 
+g++ evil_hangman.cpp -o <object file name>
+```
+``` 
+<object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>
+```
 
 For Linux Users
-``` g++ evil_hangman.cpp -o <object file name>```
-``` ./<object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>```
+``` 
+g++ evil_hangman.cpp -o <object file name>
+```
+``` 
+./<object file name> <dictionary_file> <number_of_words_in_dictionary> <case_mode>
+```
 
 ##### note:
 In this repository:
